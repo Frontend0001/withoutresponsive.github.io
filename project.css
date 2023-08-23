@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+/* -----------------------Nav-bar--------------------- */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+nav ul {
+  padding-right: 100px;
+}
+
+nav ul li {
+  display:inline-block;
+  list-style-type: none;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+nav h1 {
+  font-size: 23px;
+  margin-left: 90px;
+}
+
+/*---------------------- main-content------------------ */
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.content {
+  padding-left: 105px;
+  padding-top: 30px;
+  line-height: 80px;
+}
+
+.content p {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.content p span {
+  color: rgb(81, 81, 201);
+}
+
+/*----------------------image-------------------*/
+
+.image {
+  position: absolute;
+  width: 400px;
+  right: 130px;
+  
+  
+}
+
+/* -------------------button-------------------- */
+
+button {
+  padding: 12px 35px;
+  color: #fff;
+  font-weight: bold;
+  background: rgb(81, 81, 201);
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 145px;
+  left: 110px;
+}
+
+.footer {
+  position:absolute;
+  bottom:10px;
+  left: 120px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+
+.footer .fa-brands{
+ padding:0px 5px;
+}
